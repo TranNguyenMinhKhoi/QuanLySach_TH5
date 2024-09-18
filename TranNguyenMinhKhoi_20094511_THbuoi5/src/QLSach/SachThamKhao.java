@@ -30,4 +30,12 @@ public class SachThamKhao extends Sach {
 		this.xuatXu = xuatXu;
 	}
 	public SachThamKhao() {}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		String s2 = "";
+		s2+=s2.format("10%s|10%s|", getXuatXu(), getThanhTien());
+		return super.toString()+s2;
+	}
 }
